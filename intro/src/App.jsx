@@ -1,6 +1,6 @@
 import './App.css';
-import Exercise1 from './exercise1';
-import Exercise2 from './exercise2';
+import Exercise1 from './intro to react/exercise1';
+import Exercise2 from './intro to react/exercise2';
 import './ex2.css'
 
 function App() { 
