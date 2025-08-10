@@ -5,6 +5,8 @@ import { Hudini } from './states/exercise1';
 import React, { useState } from 'react';
 import Home from './states/exercise2/home.jsx';
 import Landing from './states/exercise2/landing.jsx';
+import Exercise1Input from './input/Exercise1Input.jsx';
+
 
 
 
@@ -32,20 +34,18 @@ function App() {
   return (
     <>
       <div>
-        <Exercise1 />
+        {/* <Exercise1 />
         <Exercise2 />
         <Hudini />
         <button onClick={() => switchPage("Landing")}>Go to Landing page</button>
         <button onClick={() => switchPage("Home")}>Go to Home page</button>
         <button onClick={toggleDiscount}>{data.shouldDiscount ? "Disable discount" : "Enable discount"}</button>
         {data.currentPage === "Landing" ? (<Landing user={data.user} store={data.store} />) : (<Home store={data.store} shouldDiscount={data.shouldDiscount} />)}
-
-
+ */}
+        <Exercise1Input />
       </div>
 
-      <div>
 
-      </div>
     </>
   );
 }
