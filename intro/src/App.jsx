@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import Home from './states/exercise2/home.jsx';
 import Landing from './states/exercise2/landing.jsx';
 import Exercise1Input from './input/Exercise1Input.jsx';
+import Exercise2Input from './input/Exercise2Input.jsx';
 
 
 
@@ -43,6 +44,7 @@ function App() {
         {data.currentPage === "Landing" ? (<Landing user={data.user} store={data.store} />) : (<Home store={data.store} shouldDiscount={data.shouldDiscount} />)}
  */}
         <Exercise1Input />
+        <Exercise2Input />
       </div>
 
 
