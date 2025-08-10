@@ -1,4 +1,4 @@
-
+import './ex2.css'
 function Exercise2() {
 
     const getClassName = (temperature) => {
