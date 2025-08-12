@@ -7,6 +7,7 @@ import Home from './states/exercise2/home.jsx';
 import Landing from './states/exercise2/landing.jsx';
 import Exercise1Input from './input/Exercise1Input.jsx';
 import Exercise2Input from './input/Exercise2Input.jsx';
+import Exercise1Effect from './UseEffect/Exercise1.jsx';
 
 
 
@@ -43,8 +44,9 @@ function App() {
         <button onClick={toggleDiscount}>{data.shouldDiscount ? "Disable discount" : "Enable discount"}</button>
         {data.currentPage === "Landing" ? (<Landing user={data.user} store={data.store} />) : (<Home store={data.store} shouldDiscount={data.shouldDiscount} />)}
  */}
-        <Exercise1Input />
-        <Exercise2Input />
+        {/* <Exercise1Input />
+        <Exercise2Input /> */}
+        <Exercise1Effect/>
       </div>
 
 
