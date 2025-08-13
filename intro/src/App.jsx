@@ -8,6 +8,7 @@ import Landing from './states/exercise2/landing.jsx';
 import Exercise1Input from './input/Exercise1Input.jsx';
 import Exercise2Input from './input/Exercise2Input.jsx';
 import Exercise1Effect from './UseEffect/Exercise1.jsx';
+import Exercise2Effect from './UseEffect/Exercise2.jsx';
 
 
 
@@ -47,6 +48,7 @@ function App() {
         {/* <Exercise1Input />
         <Exercise2Input /> */}
         <Exercise1Effect/>
+        <Exercise2Effect/>
       </div>
 
 
